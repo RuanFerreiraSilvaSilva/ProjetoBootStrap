@@ -1,0 +1,19 @@
+/* Celulares (até 576px) */
+@media (max-width: 576px) {
+  body { padding: 1rem; }
+  h1 { font-size: 1.8rem; }
+  img { width: 150px !important; }
+  table { font-size: 0.9rem; }
+}
+
+/* Tablets (577px a 992px) */
+@media (min-width: 577px) and (max-width: 992px) {
+  body { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 2.2rem; }
+}
+
+/* Desktops (acima de 992px) */
+@media (min-width: 993px) {
+  body { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 2.8rem; }
+}
